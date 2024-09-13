@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Guess the Number!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="content">
+            <h1 class="hint">From</h1>
+            <h1 id="minNum" class="hint"></h1>
+            <h1 class="hint">to</h1>
+            <h1 id="maxNum" class="hint"></h1>
+            <p>guess and type in the correct number!</p>
+            <input id="answerInput" type="number" placeholder="type answer here">
+            <button id="andTheResult">Result</button>
+            <p id="showResult"></p>
+        </div>
+    
+        <div id="options">
+            <label >Max Number</label>
+            <input id="maxInput" type="number">
+            <br>
+            <label >Min Number </label>
+            <input id="minInput" type="number">
+            <br>
+            <label>Decimals:</label>
+            <input type="range" value="0" id="decimals">
+            <label id="dec"></label>
+            <br>
+            <button id="genRanNum" disabled>generate</button>
+        </div>
+    
+        <div id="star"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
