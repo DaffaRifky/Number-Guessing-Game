@@ -57,11 +57,7 @@ maxInput.addEventListener("input", check);
 minInpnut.addEventListener("input", check);
 
 function check() {
-  if (
-    maxInput.value === "" ||
-    minInpnut.value === "" ||
-    Number(minInpnut.value) >= Number(maxInput.value)
-  ) {
+  if (maxInput.value === "" || minInpnut.value === "" || Number(minInpnut.value) >= Number(maxInput.value)) {
     genRanNum.disabled = true;
   } else {
     genRanNum.disabled = false;
