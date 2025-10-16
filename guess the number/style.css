@@ -1,3 +1,8 @@
+#title {
+  margin: 20px;
+  text-align: center;
+}
+
 #content, #options {
   margin: 20px;
   border: solid 10px;
@@ -8,12 +13,12 @@
   background: rgb(198,0,255);
   background: linear-gradient(20deg, rgba(198,0,255,1) 0%, rgba(21,219,227,1) 49%, rgba(163,253,45,1) 100%);
 }
-   
+
 .hint{
   margin: 2.5px;
   display: inline;
 }
-   
+
 #star {
   position: relative;
   bottom: 50px;
@@ -29,16 +34,16 @@
   border-right: 100px solid transparent;
   border-bottom: 70px solid cyan;
   border-left: 100px solid transparent;
-  transform: rotate(35deg);  
+  transform: rotate(35deg);
   -webkit-animation:spin 50s linear infinite;
   -moz-animation:spin 50s linear infinite;
   animation:spin 50s linear infinite;
 }
-@-moz-keyframes spin { 
-  100% { -moz-transform: rotate(360deg); } 
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
 }
-@-webkit-keyframes spin { 
-  100% { -webkit-transform: rotate(360deg); } 
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg); }
 }
 @keyframes spin {
   100% {
@@ -60,7 +65,7 @@
   content: '';
   transform: rotate(-35deg);
 }
-    
+
 #star:after {
   position: absolute;
   display: block;
@@ -75,7 +80,7 @@
   transform: rotate(-70deg);
   content: '';
 }
-   
+
 .inline{
   display: inline;
 }
